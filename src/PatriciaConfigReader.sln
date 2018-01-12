@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatriciaConfigReader", "PatriciaConfigReader\PatriciaConfigReader.csproj", "{22081569-A96A-449B-B1FA-0567CF6DD07E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{834538F1-4BAE-4A43-A1BE-A1AEDF3B8DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22081569-A96A-449B-B1FA-0567CF6DD07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22081569-A96A-449B-B1FA-0567CF6DD07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22081569-A96A-449B-B1FA-0567CF6DD07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22081569-A96A-449B-B1FA-0567CF6DD07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834538F1-4BAE-4A43-A1BE-A1AEDF3B8DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834538F1-4BAE-4A43-A1BE-A1AEDF3B8DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834538F1-4BAE-4A43-A1BE-A1AEDF3B8DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834538F1-4BAE-4A43-A1BE-A1AEDF3B8DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86BDB23A-CD9D-4C3A-A2FC-668A630C9D85}
+	EndGlobalSection
+EndGlobal

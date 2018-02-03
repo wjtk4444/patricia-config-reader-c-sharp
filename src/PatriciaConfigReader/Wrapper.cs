@@ -3,18 +3,18 @@
 namespace PatriciaConfigReader
 {
 	public class Wrapper<T>
-		where T : struct
 	{
 		public Wrapper (){}
-		public Wrapper (T v) {value = v;}
+		public Wrapper (T value) {this.value = value;}
+		public Wrapper (Wrapper<T> w) {value = w.value;}
 
 		public T value { get; set; }
 
-		static public implicit operator Wrapper<T> (T v) 
+
+		static public explicit operator Wrapper<T> (T v) 
 		{
 			return new Wrapper<T>(v);
 		}
-
 		static public implicit operator T (Wrapper<T> w)
 		{
 			return w.value;
